@@ -1,59 +1,52 @@
 <template>
-  <div class="bg-white p-4 shadow-lg rounded-lg hover:shadow-2xl transition-shadow duration-300 max-h-[300px] transform hover:scale-105">
-    <!-- Foto Puisi -->
-    <div class="relative overflow-hidden rounded-md mb-4">
-      <img v-if="poem.imageUrl" :src="poem.imageUrl" alt="Gambar Puisi" 
-        @click="openModal" class="w-full h-40 object-cover rounded-md cursor-pointer">
-      <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-30"></div>
-    </div>
+  <div>        
 
-    <!-- Judul dan Konten Puisi -->
-    <div>
-      <h2 class="text-xl font-bold mb-2 text-gray-900">{{ poem.title }}</h2>
-      <p class="text-gray-600 text-sm mb-2">{{ poem.content }}</p>
-    </div>
+    <!-- Poem Detail Section -->
+    <section class="bg-gray-100 py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-300">
+          <div class="flex flex-col md:flex-row items-start">
+            <!-- Poem Image -->
+            <div class="w-full md:w-1/2 mb-6 md:mb-0">
+              <img v-if="poem.imageUrl" :src="poem.imageUrl" alt="Gambar Puisi" class="w-full h-auto rounded-md shadow-md">
+            </div>
 
-    <!-- Modal -->
-    <div v-if="isModalOpen" @click="closeModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-      <img :src="poem.imageUrl" alt="Gambar Puisi" class="max-w-full max-h-full object-contain cursor-pointer" @click.stop>
-    </div>
+            <!-- Poem Info -->
+            <div class="w-full md:w-1/2 md:pl-8">
+              <h2 class="text-3xl font-semibold mb-4 text-blue-800">{{ poem.title }}</h2>
+              <p class="text-gray-700 text-lg">{{ poem.content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
 const props = defineProps({
   poem: {
     type: Object,
     required: true
   }
 });
-
-const isModalOpen = ref(false);
-
-function openModal() {
-  isModalOpen.value = true;
-}
-
-function closeModal() {
-  isModalOpen.value = false;
-}
 </script>
 
 <style scoped>
-/* Border halus untuk gambar */
+/* Tambahkan gaya khusus di sini jika perlu */
+header {
+  background-color: #1e40af; /* Menyesuaikan warna header */
+}
+
+header a {
+  transition: background-color 0.3s;
+}
+
+header a:hover {
+  background-color: #fcd34d; /* Warna tombol saat hover */
+}
+
 img {
-  border-bottom: 1px solid #e2e8f0; /* Menambahkan border bawah pada gambar */
-}
-
-/* Gradien untuk overlay gambar */
-div.bg-gradient-to-t {
-  pointer-events: none; 
-}
-
-/* Modal styling */
-.fixed {
-  z-index: 50; 
+  border: 1px solid #e2e8f0; /* Border halus untuk gambar */
 }
 </style>

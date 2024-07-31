@@ -2,7 +2,7 @@
   <div>
     <!-- Header Section -->
     <header class="text-center py-20 bg-blue-800 text-white">
-      <h1 class="text-5xl font-bold mb-4">Selamat Datang di PuisiApp</h1>
+      <h1 class="text-5xl font-bold mb-4">Selamat Datang di Kupus (Kumpulan Puisi)</h1>
       <p class="text-xl mb-8">Temukan dan nikmati kumpulan puisi terbaik dari berbagai penulis.</p>
       <router-link to="/poems" class="bg-yellow-400 text-blue-800 py-2 px-4 rounded hover:bg-yellow-300">Mulai Baca</router-link>
     </header>
