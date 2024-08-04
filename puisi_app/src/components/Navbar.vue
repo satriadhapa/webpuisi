@@ -2,12 +2,13 @@
   <nav class="bg-blue-600 p-4">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <div class="text-white text-lg font-bold flex items-center">
-        <img src="@/assets/log.png" alt="Logo" class="h-8 w-8 mr-2">
+        <a href="/"><img src="@/assets/log.png" alt="Logo" class="h-8 w-8 mr-2"></a>
         KuPus
       </div>
       <div class="hidden md:flex space-x-4 items-center">
         <router-link to="/" class="text-white hover:text-gray-200" exact>Home</router-link>
-        <router-link to="/poems" class="text-white hover:text-gray-200">Kumpulan Puisi</router-link>
+        <router-link to="/poems" class="text-white hover:text-gray-200">Pretest Puisi</router-link>
+        <router-link to="/poems2" class="text-white hover:text-gray-200">PostTest Puisi</router-link>
         <router-link to="/about" class="text-white hover:text-gray-200">Tentang</router-link>
       </div>
       <button @click="toggleMenu" class="md:hidden text-white focus:outline-none">
@@ -18,7 +19,8 @@
     </div>
     <div :class="{'block': isOpen, 'hidden': !isOpen}" class="md:hidden">
       <router-link to="/" class="block text-white px-2 py-1 hover:bg-blue-700" @click="toggleMenu">Home</router-link>
-      <router-link to="/poems" class="block text-white px-2 py-1 hover:bg-blue-700" @click="toggleMenu">Kumpulan Puisi</router-link>
+      <router-link to="/poems" class="block text-white px-2 py-1 hover:bg-blue-700" @click="toggleMenu">Pretest Puisi</router-link>
+      <router-link to="/poems2" class="block text-white px-2 py-1 hover:bg-blue-700" @click="toggleMenu">posttest Puisi</router-link>
       <router-link to="/about" class="block text-white px-2 py-1 hover:bg-blue-700" @click="toggleMenu">Tentang</router-link>
     </div>
   </nav>

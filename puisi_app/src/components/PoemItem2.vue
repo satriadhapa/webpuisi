@@ -11,7 +11,7 @@
                 v-if="poem.imageUrl"
                 :src="poem.imageUrl"
                 alt="Gambar Puisi"
-                class="w-full h-48 object-cover rounded-md shadow-md cursor-pointer"
+                class="w-full h-60 object-cover rounded-md shadow-md cursor-pointer"
                 @click="openModal"
               >
               <!-- Modal -->

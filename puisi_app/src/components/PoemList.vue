@@ -41,185 +41,185 @@ import gambar2 from '@/assets/profil.jpg';
 const poems = [
   {
     id: 1,
-    title: "Puisi Keluarga",
-    content: "Di sinilah tempat kita berbagi cerita...",
+    title: "Keindahan Peternakan",
+    content: "Karya Alwi Ajriana Yahya",
     imageUrl: pre1
   },
   { 
     id: 2,
-    title: "Puisi Persahabatan",
-    content: "Sahabat sejati adalah cermin diri...",
+    title: "Pendidikan Dibawah Langit",
+    content: "Karya Aulia Yusuf",
     imageUrl: pre2
   },
   {
     id: 3,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Ruang Kelas",
+    content: "Karya Azmi Fitria",
     imageUrl: pre3
   },
   {
     id: 4,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Hujan Bulan Februari",
+    content: "Karya Dara Citra Paramita",
     imageUrl: pre4
   },
   {
     id: 5,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Bulan Purnama",
+    content: "Karya Devi Suryani",
     imageUrl: pre5
   },
   {
     id: 6,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Bola",
+    content: "Karya Faisal Satria Firdaus",
     imageUrl: pre6
   },
   {
     id: 7,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Pantai",
+    content: "Karya Fahsya Faturahman Aprian",
     imageUrl: pre7
   },
   {
     id: 8,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Senja",
+    content: "Karya Indira Putri Hermawan",
     imageUrl: pre8
   },
   {
     id: 9,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Menunggu",
+    content: "Karya Intan Dwi Ayu",
     imageUrl: pre9
   },
   {
     id: 10,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Ibu",
+    content: "Keisya Putri Aprilliani",
     imageUrl: pre10
   },
   {
     id: 11,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Pulpen",
+    content: "Karya M. Rizky Nurahman",
     imageUrl: pre11
   },
   {
     id: 12,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Ayah",
+    content: "Karya Mesa Putri Diandara",
     imageUrl: pre12
   },
   {
     id: 13,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Sang Pencipta",
+    content: "Karya Mochammad Noval R",
     imageUrl: pre13
   },
   {
     id: 14,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Mengapa",
+    content: " Karya Mugi Mugni Fadhillah.",
     imageUrl: pre14
   },
   {
     id: 15,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Keindahan Alam diwaktu sore",
+    content: "Karya Muhammad Ariski",
     imageUrl: pre15
   },
   {
     id: 16,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Jambu",
+    content: "Karya Muhammad Dafa Zat Tamam",
     imageUrl: pre16
   },
   {
     id: 17,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Ingin Memilikimu",
+    content: "Karya Nasyifa Desca Khairisyah",
     imageUrl: pre17
   },
   {
     id: 18,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Bukuku",
+    content: "Karya Ranisya Rahma",
     imageUrl: pre18
   },
   {
     id: 19,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Bunga",
+    content: "Karya Revana Prisilia Lungut S",
     imageUrl: pre19
   },
   {
     id: 20,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Lautan Cinta Yang Abadi",
+    content: "Karya Rezky Akhsan Alhafid",
     imageUrl: pre20
   },
   {
     id: 21,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Penghapus",
+    content: "Karya Rico Januar",
     imageUrl: pre21
   },
   {
     id: 22,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Sunset pada Sore Hari",
+    content: "Karya Septiana Andarista",
     imageUrl: pre22
   },
   {
     id: 23,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Senja",
+    content: "Karya Shafa Aqila N",
     imageUrl: pre23
   },
   {
     id: 24,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Dicintai",
+    content: "Karya Sintia Bela",
     imageUrl: pre24
   },
   {
     id: 25,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Senjaku",
+    content: "Karya Siti Syahra Inayah",
     imageUrl: pre25
   },
   {
     id: 26,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Senja Sore",
+    content: "Karya Syafira Febriani Feyana",
     imageUrl: pre26
   },
   {
     id: 27,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Sunset",
+    content: "Karya Tarisa Regina Putri",
     imageUrl: pre27
   },
   {
     id: 28,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Cinta Kakel",
+    content: "Karya Wilis Wibawa Anggara",
     imageUrl: pre28
   },
   {
     id: 29,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Bumi Yang Tua",
+    content: "Karya Revan Mahaswara C.P",
     imageUrl: pre29
   },
   {
     id: 30,
-    title: "Puisi Cinta",
-    content: "Cinta yang tulus bagaikan matahari...",
+    title: "Matahari dan Rembulan",
+    content: "Karya Iki Firmansyah",
     imageUrl: pre30
   },
-];
+]; //Iki Firmansyah
 </script>
 
 <style scoped>

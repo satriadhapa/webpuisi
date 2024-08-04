@@ -3,7 +3,7 @@
     <!-- Header Section -->
     <div class="text-center animate__animated animate__fadeIn">
       <h1 class="text-4xl font-bold mb-4">Profil Ai Mulyati</h1>
-      <p class="text-lg text-gray-700 mb-6">Kami adalah tim yang berdedikasi untuk memberikan yang terbaik dalam segala hal yang kami lakukan.</p>
+      <p class="text-lg text-gray-700 mb-6">Saya merupakan seseorang yang berdedikasi untuk memberikan yang terbaik dalam segala hal yang saya lakukan.</p>
     </div>
 
     <!-- Profile Section -->
@@ -20,26 +20,24 @@
         <p class="text-gray-700 mb-4">Keahlian saya meliputi:</p>
         <ul class="list-disc list-inside mb-4 text-gray-700">
           <li>Bahasa Indonesia</li>
-          <li>Pendidikan</li>
-          <li>Pemrograman Web</li>
-          <li>Pemrograman Aplikasi Mobile</li>
+          <li>Menulis Puisi</li>
+          <li>Mengajar</li>
         </ul>
         <p class="text-gray-700 mb-4">Untuk informasi lebih lanjut, Anda dapat menghubungi saya melalui:</p>
         <ul class="list-none">
           <li class="mb-2 flex items-center">
             <font-awesome-icon :icon="['fas', 'envelope']" class="text-blue-500 mr-2"/>
             <strong>Email:</strong>
-            <a href="mailto:aimulyati@example.com" class="text-blue-500 hover:underline ml-1">aimulyati@example.com</a>
+            <a href="mailto:aimulyati@example.com" class="text-blue-500 hover:underline ml-1">aimulyati00@gmail.com</a>
           </li>
           <li class="mb-2 flex items-center">
             <font-awesome-icon :icon="['fab', 'linkedin']" class="text-blue-500 mr-2"/>
             <strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/aimulyati" class="text-blue-500 hover:underline ml-1" target="_blank">aimulyati</a>
+            <a href="https://www.linkedin.com/in/ai-mulyati-606698299/" class="text-blue-500 hover:underline ml-1" target="_blank">aimulyati</a>
           </li>
           <li class="mb-2 flex items-center">
-            <font-awesome-icon :icon="['fab', 'github']" class="text-blue-500 mr-2"/>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/aimulyati" class="text-blue-500 hover:underline ml-1" target="_blank">aimulyati</a>
+            <strong>No Telepon: +62 857-9879-9479</strong>
+            
           </li>
         </ul>
       </div>
